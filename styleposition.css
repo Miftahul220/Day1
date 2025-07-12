@@ -1,0 +1,22 @@
+.fix{
+  border: 2px solid teal;
+  position: fixed;
+  border-color: teal;
+  padding: 2px;
+  
+}
+.div1{
+  border: 3px solid ;
+  position: static;
+  border-color: rebeccapurple;
+  padding: 5px;
+}
+.div2{
+  border: 3px solid ;
+  position: relative;
+  border-color: firebrick;
+  padding: 5px;
+}
+
+
+
