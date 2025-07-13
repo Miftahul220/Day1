@@ -1,0 +1,20 @@
+.flex-container{
+   background-color: cadetblue;
+  display: flex;
+  /*""flex-wrap: wrap;
+  flex-direction: row-reverse;*/
+ flex-flow: wrap row;
+ justify-content: /*space-around;*/ center;
+ height: 500px;
+ align-items: center;
+}
+
+.flex-container > div{
+    font-size: 30px;
+    padding: 4px;
+    margin: 6px;
+    width: 70px;
+    background-color: hotpink;
+    height: 100px;
+    
+}
