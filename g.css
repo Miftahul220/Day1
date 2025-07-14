@@ -1,0 +1,16 @@
+.gradient-style{
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(to right,purple,green
+   , olive,blue
+  );
+ 
+}
+.gradient-style2{
+  width: 100%;
+  height:300px;
+background-image: radial-gradient(circle, red,green,yellow,orange);
+z-index: 1;
+}
+
+
