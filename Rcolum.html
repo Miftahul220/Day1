@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive colums</title>
+  <style>
+*{
+  box-sizing: border-box
+} 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.colum{
+  flex:25%;
+  padding: 10px;
+}
+@media screen and (max-width:699px;){
+ .colum{
+  flex:45%;
+}
+}
+/*.colum{
+  float: left;
+  width: 45%;
+  padding: 6px;
+}  
+@media screen and (max-width:300px;) {
+  
+.colum{
+  float:left;
+  width: 50%;
+}  
+
+}  */
+    
+  </style>
+</head>
+
+<body>
+<div class="row">
+  <div class="colum">
+    <h2>HTML</h2>
+    <p>We missed the final five Overs of the match. Luckily, india won amd ishdidn't get that upset.</p>
+  </div>
+    <div class="colum">
+    <h2>paython</h2>
+    <p>We missed the final five Overs of the match. Luckily, india won amd ishdidn't get that upset.</p>
+  </div>
+  <div class="colum">
+    <h2>CSS</h2>
+    <p>We missed the final five Overs of the match. Luckily, india won amd ishdidn't get that upset.</p>
+  </div>  
+    <div class="colum">
+    <h2>Jav</h2>
+    <p>We missed the final five Overs of the match. Luckily, india won amd ishdidn't get that upset.</p>
+  </div>
+  
+  
+</div>  
+  
+  
+  
+  
+  
+  
+</body>
+
+</html>
