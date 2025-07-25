@@ -1,0 +1,25 @@
+input[type=text]{
+  width: 100%;
+ padding: 10px 20px;
+ margin: 10px 0 ;
+ font-size: 1rem;
+ border: 2px solid skyblue;
+ box-sizing: border-box;
+ border-radius: 3px;
+ background-color: goldenrod;
+}
+#search{
+  background-image: url(/search-interface-symbol.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  font-size: 1rem ;
+  padding: 20px 50px ;
+  background-position: 25px 25px ;
+  width: 50px;
+  transition: width 0.4s linear;
+  
+}
+#search:focus{
+  width: 100%;
+  background-color: greenyellow;
+}
