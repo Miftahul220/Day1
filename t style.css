@@ -1,0 +1,34 @@
+table{
+  border: 4px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+ 
+}
+td,th{
+  border: 3px solid black;
+  padding: 10px;
+ 
+}
+th{
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  height: 40px;
+  vertical-align: middle;
+}
+td{
+  height: 50px;
+}
+tr:nth-child(even){
+  background-color: khaki;
+}
+
+tr:nth-child(odd){
+  background-color: goldenrod;
+}
+
+
+
+tr:hover{
+  background-color: firebrick;
+}
